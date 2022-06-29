@@ -7,8 +7,8 @@ git config --global user.email email@example.com
 cd ~ (your current working directory)
 git init (get .git)
 %After set and change a file in ~ 
-git add filename (add the new edition in working memory, aka stage)
-git commit -m "instruction of this change and edition" (commit the change and save in long-term memory, aka master)
+git add filename (add the new version in working memory, aka stage)
+git commit -m "instruction of this change and version" (commit the change and save in long-term memory, aka master)
 
 %Check current repository
 git status
@@ -16,15 +16,15 @@ git diff filename
 %Check history
 git log (--pretty=oneline)
 
-%Get back to the last edition
+%Get back to the last version
 git reset --hard HEAD^
-%Get back to any edition
+%Get back to any version
 git reset --hard commit id.
 %Check commit id
 git reflog
 %Give up your changes in work directory, go back to the version in stage or master 
 git checkout -- filename
-%unstage (delete the edition in stage)
+%unstage (delete the version in stage)
 git reset HEAD filename
 
 %remove the file in wd and repository
