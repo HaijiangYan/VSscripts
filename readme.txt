@@ -22,7 +22,7 @@ git reset --hard HEAD^
 git reset --hard commit id.
 %Check commit id
 git reflog
-%Give up your changes in work directory, go back to the edition in stage or master 
+%Give up your changes in work directory, go back to the version in stage or master 
 git checkout -- filename
 %unstage (delete the edition in stage)
 git reset HEAD filename
