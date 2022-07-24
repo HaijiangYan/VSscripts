@@ -57,5 +57,5 @@ git checkout master
 %merge the branches
 git merge dev
 %delete the branch dev
-git delete dev
+git branch -d dev
 
