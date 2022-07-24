@@ -41,3 +41,21 @@ git clone git@github.com:HaijiangYan/gitskills.git
 %Disconnect
 git remote -v
 git remote rm origin
+
+
+%create a new branch "dev"
+git branch dev
+git checkout dev
+(git checkout -b dev)
+
+%submit as before
+git add readme.txt
+git commit -m "branch test"
+
+%switch back
+git checkout master
+%merge the branches
+git merge dev
+%delete the branch dev
+git delete dev
+
