@@ -52,7 +52,7 @@ git checkout dev
 git add readme.txt
 git commit -m "branch test"
 
-%switch back
+%switch back (could also replace the 'checkout' with 'switch', the latter is more specific)
 git checkout master
 %merge the branches
 git merge dev
