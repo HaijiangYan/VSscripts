@@ -34,7 +34,7 @@ git commit -m "instruction"
 
 %Connect local repository to github repository
 git remote add origin git@github.com:HaijiangYan/VSscripts.git
-git push -u origin master (firstly)
+git push -u origin master (firstly, please keep SSH key correct)
 git push origin master
 %Clone a remote repository to local wd
 git clone git@github.com:HaijiangYan/gitskills.git
